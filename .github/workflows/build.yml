@@ -24,7 +24,7 @@ jobs:
         run: echo "Kernel build simulation complete"
 
       - name: Upload dummy artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: test-output
           path: kernel/README.md
